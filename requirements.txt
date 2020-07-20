@@ -20,3 +20,5 @@ uvicorn
 python-multipart
 soundfile
 absl-py
+
+starlette>=0.13.5 # not directly required, pinned by Snyk to avoid a vulnerability
