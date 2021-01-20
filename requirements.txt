@@ -10,7 +10,7 @@ seaborn>=0.7
 spacy>=2.1
 tqdm
 tabulate>=0.7
-tensorflow==1.14.0
+tensorflow==1.15.4
 PyYAML>=3.12
 pytest
 gmpy
@@ -20,3 +20,4 @@ uvicorn
 python-multipart
 soundfile
 absl-py
+pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
